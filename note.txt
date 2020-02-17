@@ -1,0 +1,11 @@
+git init
+
+git config user.email "markuswww@op.pl"
+git config user.name "markuswww"
+
+#git config --global user.email "markuswww@op.pl"
+#git config --global user.name "markuswww"
+
+
+git add --all
+git commit -m "initialize project"
