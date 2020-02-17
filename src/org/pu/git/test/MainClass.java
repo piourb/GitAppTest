@@ -1,14 +1,12 @@
 package org.pu.git.test;
 
+import java.util.Arrays;
+
 public class MainClass {
 	
-	public FeatureBase feature001=new Feature001();
-	public FeatureBase feature002=new Feature002();
-	
+	public FeatureBase tab[]= {new Feature001(),new Feature002(),new Feature003()};
+		
 	public static void main(String[] args) {
-		new MainClass().feature001.print();
-		new MainClass().feature002.print();
+		Arrays.asList(new MainClass().tab).stream().forEach(e->e.print());		
 	}
-	
-	
 }

@@ -16,3 +16,13 @@ git push -u origin master
 
 ------------------------------------------------------------
 git checkout -b feature-001
+
+git branch -d feature-001
+git push -d origin feature-001
+
+git fetch --all --prune
+
+------------------------------------------------------------
+git remote -v
+git remote rm origin
+git remote add origin https://github.com/markuswwwoppl/GitAppTest.git
