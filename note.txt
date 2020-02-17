@@ -1,10 +1,11 @@
 git init
 
 git config user.email "markuswww@op.pl"
-git config user.name "markuswww"
+git config user.name "markuswwwoppl"
 
 #git config --global user.email "markuswww@op.pl"
 #git config --global user.name "markuswww"
+#git config --global --unset user.password
 
 
 git add --all
@@ -26,3 +27,11 @@ git fetch --all --prune
 git remote -v
 git remote rm origin
 git remote add origin https://github.com/markuswwwoppl/GitAppTest.git
+
+
+git config --global --unset user.password
+
+git remote set-url origin https://github.com/markuswwwoppl/GitAppTest.git
+
+git config user.email "markuswww@gmail.com"
+git config user.name "markuswww"
