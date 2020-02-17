@@ -13,3 +13,6 @@ git commit -m "initialize project"
 git remote add origin https://github.com/piourb/GitAppTest.git
 
 git push -u origin master
+
+------------------------------------------------------------
+git checkout -b feature-001
